@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Twitch, Twitch clips, clips, Live stream, Live stream clips, Stream clips, clip and ship, clip & ship, clipnship">
+  <meta name="Description" content="Personalized selection of Twitch clips from streamers you follow">
+  <title>Clip & Ship</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172116738-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-172116738-1');
+</script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body id="body">
+  <header id="main-header">
+    <div class="container">
+      <img src="./images/header.png" alt="">
+    </div>
+  </header>
+
+  <nav id ="options-panel">
+    <div class="options-panel">
+      <ul>
+        <li><input type="submit" value="Day" id="day"></li>
+        <li><input type="submit" value="Week" id="week"></li>
+        <li><input type="submit" value="Month" id="month"></li>
+      </ul>
+    </div>
+  </nav>
+
+  <aside id="sidebar">
+    <div class="container">
+      <label id="select-all">Select all
+        <input type="checkbox" checked='checked' id="checkbox" name="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <ul id="channel-list">
+
+      </ul>
+      <input type="submit" value="Apply filter" id="apply-button">
+    </div>
+  </aside>
+
+  <section id = "main">
+    <div> </div>
+  </section>
+  <div class="username-form" id="login-form">
+    <h2 id="login-label">Twitch username</h2>
+    <form action="#"></form>
+    <input type="text" id="username" name="username" placeholder="Twitch username">
+    <input type="submit" value="Submit" id="login-button">
+  </div>
+
+  <div>
+    <input type="submit" value="Load more" id="load-button">
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
