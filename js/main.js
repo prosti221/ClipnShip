@@ -1,9 +1,3 @@
-//var, let, const 
-//always use const unless you know its going to change
-//String, Number, null, undefine
-//forEach, map, filter
-//=== for value and datatype, == only for value
-//Turnury operator      const color = x > 10 ? "red" : "blue"       -- > color is red if x is > 10 else blue
 
 //Elements
 const loginButton = document.getElementById("login-button");
@@ -22,6 +16,7 @@ const loginForm = document.getElementById('login-form');
 const checkbox = document.querySelector("input[name=checkbox]");
 const header = document.getElementById('main-header');
 const loginLabel = document.getElementById('login-label');
+
 var hide = true;
 var isMobile = false;
 
